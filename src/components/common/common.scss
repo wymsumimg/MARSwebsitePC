@@ -1,0 +1,28 @@
+ul,li{list-style:none;}
+p,h1~h6,ul,li{margin:0;padding:0;}
+.el-dialog{
+    display: flex;
+    flex-direction: column;
+    margin:0 !important;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /*height:600px;*/
+    max-height:calc(100% - 30px);
+    max-width:calc(100% - 30px);
+  }
+  .el-dialog .el-dialog__body{
+    flex:1;
+    overflow: auto;
+  }
+  .indexBox{
+    min-width: 1436px;
+  }
+  .banXin{
+    width:1436px;
+  }
+  .marginAuto{
+    margin:auto;
+    
+  }
